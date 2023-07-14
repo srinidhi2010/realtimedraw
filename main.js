@@ -18,7 +18,7 @@ function draw(){
     background('#969A97');
     document.getElementById("square_side").innerHTML = "Width and Height of the Square will be: "+difference+" px"
     fill('#F90093');
-    stroke('F90093');
+    stroke('#F90093');
     square(noseX, noseY, difference);
 }
 function modelLoaded(){
